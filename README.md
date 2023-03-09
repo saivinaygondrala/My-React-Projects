@@ -9,7 +9,7 @@
 <tbody>
 <tr>
 <td>Github Profiles</td>
-<td><a href="https://github-profiles-retriver.netlify.app/">Live</a></td>
+<td><a href="https://github-profiles-retriver.netlify.app/" target="_blank">Live</a></td>
 </tr>
 </tbody>
 </table>
