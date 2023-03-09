@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    height: 100dvh;
+    width: 100vw;
+}
+.main-container{
+    height: 80dvh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input,button{
+    border: none;
+    background: transparent;
+    padding: .5rem;
+}
+button{
+    padding: .5rem;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #181010;
+}
+.input-container{
+    display: flex;
+    background-color: rgb(34, 34, 31);
+    color: white;
+    border-radius: 5px;
+}
+.input-container > *{
+    color: white;
+    font-size: large;
+}
+button:focus{
+    outline: none;
+}
+.input-container input[type=text]{
+    min-width: 50vw;
+    padding: 1rem;
+    outline: none;
+}
+input[type=text]::placeholder{
+    color: white;
+}
+.input-container input:hover{
+    outline: none;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.main-container > *{
+    margin: 1rem;
+}
+.data-container img{
+    border-radius: 50%;
+    padding: .5rem;
+    background: cadetblue;
+    width: 10rem;
+    min-width: 8rem;
+    max-width: 12rem;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    background: #141313;
+    padding: 1rem;
+    border-radius: 5px;
+}
+a,button{
+cursor: pointer;
+}
+.data-container > *{
+    margin:2rem;
+}
+.data-container-data > *{
+    padding: .5rem;
+}
+@media (max-width:640px){
+    .data-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
