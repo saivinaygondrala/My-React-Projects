@@ -2,8 +2,8 @@
 <table>
 <thead>
 <tr>
-<td>Project title</td>
-<td>URL</td>
+  <td><h1>Project title</h1></td>
+  <td><h1>URL</h1></td>
 </tr>
 </thead>
 <tbody>
