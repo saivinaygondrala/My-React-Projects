@@ -11,5 +11,9 @@
 <td>Github Profiles</td>
 <td><a href="https://github-profiles-retriver.netlify.app/" target="_blank">Live</a></td>
 </tr>
+<tr>
+<td>Todo List</td>
+<td><a href="https://my-first-todo-list-with-react.netlify.app/" target="_blank">Live</a></td>
+</tr>
 </tbody>
 </table>
